@@ -1,0 +1,213 @@
+<!--========== Start controls-bar ==========-->
+<section class="controls-bar">
+    <div class="container"><!--Start Container-->
+        <div class="row"><!--Start row-->
+         
+            <div class="col">
+                <div class="media avatar">
+                    <img class="mr-3 rounded" src="./assets/imgs/img_avatar.png" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 text-capitalize">matthew potter</h5>
+                        <span class="text-capitalize">news viewed - 3561</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="media bookmark">
+                    <img class="mr-3" src="./assets/imgs/bookmark.png" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 text-capitalize">my bookmarks</h5>
+                        <span class="text-capitalize">350</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="types">
+                    <h5 class="text-capitalize">view types</h5>
+                    <div class="converts">
+                        <span class="active">
+                            <i id="besides" class="fa fa-th-large" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            <i id="list" class="fa fa-list fa-fw" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--End row-->
+    </div><!--End Container-->
+</section>
+<!--========== End controls-bar ==========-->
+
+<!--========== Strat cards ==========-->
+<section class="cards">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-4 col-xs-12" *ngFor="let info of articles">
+
+                <div class="remove-class" (click)="detailArticle(info.title)">
+                    <div class="ad-card">
+                        <div class="ad-card-img-body">
+                            <img class="card-img-top" [src]="info.urlToImage" alt="">
+                            <i class="fa fa-bookmark fa-fw"></i>
+                        </div>
+                        <div class="ad-card-body">
+                            <h5 class="card-title text-capitalize">{{info.title}}</h5>
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    <i class="fa fa-building fa-fw"></i>
+                                    <span class="text-capitalize">{{info.source.name}}</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-calendar fa-fw"></i>
+                                    <span class="text-capitalize">{{info.publishedAt.slice(0,9)}}</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--========== End cards ==========-->
+
+<!--========== Start news ==========-->
+<section class="news">
+    <div class="container"><!--Start container-->
+        <div class="row"><!--Start row-->
+
+            <div class="col-sm">
+                <div class="more-details">
+                    <h5 class="text-uppercase">more news</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>    
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                                <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="more-details">
+                    <h5 class="text-uppercase">top news</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div><!--End row-->
+    </div><!--End container-->
+</section>
+<!--========== End news ==========-->
+
+<!--========== Start news ==========-->
+<section class="news news-2">
+    <div class="container"><!--Start container-->
+        <div class="row"><!--Start row-->
+
+            <div class="col-sm">
+                <div class="more-details">
+                    <h5 class="text-uppercase">tv shows this week</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>    
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                                <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-fw"></i>
+                            <span>prosecture killed after deputy shot</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="more-details">
+                    <h5 class="text-uppercase">top images</h5>
+                    <ul class="list-unstyled">
+                        <li>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="wrap-img">
+                                        <img class="rounded" src="./assets/imgs/com.jpg" alt="">
+                                        <img class="rounded" src="./assets/imgs/com.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="wrap-img">
+                                        <img class="rounded" src="./assets/imgs/com.jpg" alt="">
+                                        <img class="rounded" src="./assets/imgs/com.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="wrap-img">
+                                        <img class="rounded" src="./assets/imgs/com.jpg" alt="">
+                                        <img class="rounded" src="./assets/imgs/com.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div><!--End row-->
+    </div><!--End container-->
+</section>
+<!--========== End news ==========-->

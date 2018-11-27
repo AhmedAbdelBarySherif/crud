@@ -1,0 +1,227 @@
+@import "~font-awesome/css/font-awesome.css";
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*========== Start controls-bar ==========*/
+.controls-bar {
+    color: #a0a0a0;
+    padding-bottom: 40px;
+    box-shadow: 0 0.90rem 1.5rem rgba(0,0,0,.035)
+}
+
+@media(max-width: 775px) {
+    .controls-bar {
+        padding-bottom: 0
+    }
+}
+
+@media(max-width: 775px) {
+    .controls-bar .media {
+        margin-bottom: 40px
+    }
+}
+
+@media(max-width: 775px) {
+    .controls-bar .container .row>div {
+        padding-top: 0
+    }
+}
+
+.controls-bar .media .media-body h5,
+.controls-bar .types h5 {
+    font-size: 16px
+}
+
+@media(max-width: 775px) {
+    .controls-bar .media .media-body h5,
+    .controls-bar .types h5 {
+        font-size: 12px
+    }
+}
+
+
+.controls-bar .media .media-body span {
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+@media(max-width: 775px) {
+    .controls-bar .media .media-body span {
+        font-size: 5px;
+        letter-spacing: 0
+    }
+}
+
+
+.controls-bar .avatar img {
+    width: 41px
+}
+
+.controls-bar .bookmark img {
+    width: 24px
+}
+
+.controls-bar .converts span {
+    margin-right: 10px
+}
+
+.controls-bar .converts span.active {
+    color: #000
+}
+
+.controls-bar .converts span i {
+    font-size: 20px;
+    cursor: pointer;
+}
+/*========== End controls-bar ==========*/
+
+/*========== Start cards ==========*/
+.cards {
+    padding: 40px 0;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.cards .remove-class {
+    /* width: 30%; */
+    margin-bottom: 20px;
+    float: left;
+}
+
+.cards .remove-class:not(:first-of-type) {
+    margin-left: 3%
+}
+
+@media(max-width: 775px) {
+    .cards .remove-class {
+        width: 100%;
+    }
+
+    .cards .remove-class:not(:first-of-type) {
+        margin-left: 0
+    }
+}
+
+.cards .ad-card {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    border: 0;
+    display: block!important;
+}
+
+.cards .ad-card .ad-card-img-body {
+    position: relative;
+    height: 270px;
+}
+
+.cards .ad-card .ad-card-img-body img {
+    max-width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 8px; 
+    border-bottom-left-radius: 8px 
+}
+
+.cards .ad-card .ad-card-img-body i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 29px;
+    display: block;
+    border-radius: 3px;
+    line-height: 40px;
+    transition: all .2s ease-in-out
+}
+
+.cards .ad-card:hover .ad-card-img-body i {
+    color: #f2f2f2;
+    background-color: #333;
+}
+
+.cards .ad-card .ad-card-img-body {
+    padding-bottom: 4px
+}
+
+.cards .ad-card .ad-card-body h5 {
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.cards .ad-card .ad-card-body ul li {
+    width: 50%;
+    color: #a0a0a0;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 13px
+}
+
+.cards .ad-card .ad-card-body ul li i {
+    margin-right: 5px
+}
+
+.cards .ad-card .ad-card-body ul li:first-child {
+    border-right: 1px solid #a0a0a0
+}
+
+.cards .card .card-body ul li:last-child {
+    padding-left: 10px
+}
+/*========== End cards ==========*/
+
+/*========== Start news ==========*/
+.news .more-details h5 {
+    font-weight: 600;
+    border-bottom: 1px dashed rgba(0, 0, 0, .2);
+    padding-bottom: 20px
+}
+
+.news .more-details ul li {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.news .more-details ul li:last-of-type {
+    border-bottom: 0
+}
+
+.news .more-details ul li span {
+    text-transform: capitalize
+}
+
+.news .more-details ul li i {
+    color: #ddd;
+    margin-right: 10px
+}
+
+.news .more-details-img ul li {
+    width: 30%;
+    float: left;
+    border: 0;
+    margin-right: 3%
+}
+
+.news .more-details-img ul li img {
+    max-width: 100%
+}
+
+.news-2 {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 45px
+}
+
+.news-2 img {
+    max-width: 100%;
+    margin-bottom: 20px
+}
+/*========== End news ==========*/

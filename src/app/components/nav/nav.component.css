@@ -1,0 +1,31 @@
+@import "~font-awesome/css/font-awesome.css";
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*========== Start navbar ==========*/
+.navbar {
+    padding-bottom: 40px
+}
+
+@media(max-width: 775px) {
+    .navbar {
+        padding-bottom: 20px
+    }    
+}
+
+.navbar * {
+    color: #333
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px
+}
+
+.navbar button {
+    border: 0;
+    padding-left: 0
+}
+/*========== End navbar ==========*/

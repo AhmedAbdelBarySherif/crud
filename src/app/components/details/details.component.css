@@ -1,0 +1,186 @@
+@import "~font-awesome/css/font-awesome.css";
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*========== Start navbar ==========*/
+.navbar {
+    padding-bottom: 40px
+}
+
+@media(max-width: 775px) {
+    .navbar {
+        padding-bottom: 20px
+    }    
+}
+
+.navbar * {
+    color: #333
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px
+}
+
+.navbar button {
+    border: 0;
+    padding-left: 0
+}
+/*========== End navbar ==========*/
+
+/*========== Start controls-bar ==========*/
+.controls-bar {
+    color: #a0a0a0;
+    padding-bottom: 40px;
+    box-shadow: 0 0.90rem 1.5rem rgba(0,0,0,.035)
+}
+
+@media(max-width: 775px) {
+    .controls-bar {
+        padding-bottom: 0
+    }
+}
+
+@media(max-width: 775px) {
+    .controls-bar .media {
+        margin-bottom: 40px
+    }
+}
+
+@media(max-width: 775px) {
+    .controls-bar .container .row>div {
+        padding-top: 0
+    }
+}
+
+.controls-bar .media .media-body h5,
+.controls-bar .types h5 {
+    font-size: 16px
+}
+
+@media(max-width: 775px) {
+    .controls-bar .media .media-body h5,
+    .controls-bar .types h5 {
+        font-size: 12px
+    }
+}
+
+
+.controls-bar .media .media-body span {
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+@media(max-width: 775px) {
+    .controls-bar .media .media-body span {
+        font-size: 5px;
+        letter-spacing: 0
+    }
+}
+
+
+.controls-bar .avatar img {
+    width: 41px
+}
+
+.controls-bar .bookmark img {
+    width: 24px
+}
+
+.controls-bar .converts span {
+    margin-right: 10px
+}
+
+.controls-bar .converts span.active {
+    color: #000
+}
+
+.controls-bar .converts span i {
+    font-size: 20px;
+    cursor: pointer;
+}
+/*========== End controls-bar ==========*/
+
+/*========== Start single-news ==========*/
+.single-news {
+    padding: 60px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 20px
+}
+
+.single-news .core img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 20px
+}
+
+.single-news .core p {
+    color: gray;
+    margin-bottom: 20px
+}
+/*========== End single-news ==========*/
+
+/*========== Start comments ==========*/
+.comments .head {
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+    padding-bottom: 15px
+}
+
+.comments .head h5 {
+    float: left;
+}
+
+.comments .head span {
+    float: right;
+}
+
+.comments .media img {
+    width: 41px
+}
+
+.comments .media h5 {
+
+}
+
+.comments .media h5 span:last-child {
+    float: right;
+    color: gray;
+    font-size: 14px
+}
+
+.comments .media p {
+    color: gray
+}
+
+.comments .media i {
+    font-size: 20px
+}
+
+.comments .media .media-body {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;;
+    padding-bottom: 20px
+}
+/*========== End comments ==========*/
+
+/*========== Start footer ==========*/
+footer {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 20px;
+    color: rgba(0, 0, 0, .5);
+}
+
+@media(max-width: 775px) {
+    footer p {
+        font-size: 12px
+    }
+}
+/*========== End footer ==========*/
+
+
+

@@ -1,0 +1,136 @@
+<!--========== Start controls-bar ==========-->
+<section class="controls-bar">
+    <div class="container"><!--Start Container-->
+        <div class="row"><!--Start row-->
+         
+            <div class="col">
+                <div class="media avatar">
+                    <img class="mr-3 rounded" src="./assets/imgs/img_avatar.png" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 text-capitalize">matthew potter</h5>
+                        <span class="text-capitalize">news viewed - 3561</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="media bookmark">
+                    <img class="mr-3" src="./assets/imgs/bookmark.png" alt="">
+                    <div class="media-body">
+                        <h5 class="mt-0 text-capitalize">my bookmarks</h5>
+                        <span class="text-capitalize">350</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="types">
+                    <h5 class="text-capitalize">view types</h5>
+                    <div class="converts">
+                        <span class="active">
+                            <i id="besides" class="fa fa-th-large" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            <i id="list" class="fa fa-list fa-fw" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div><!--End row-->
+    </div><!--End Container-->
+</section>
+<!--========== End controls-bar ==========-->
+
+<!--========== Start single-news ==========-->
+<section class="single-news">
+  <div class="container"><!--Start Container-->
+    <div class="row">
+       <div class="col">
+        
+        <div class="info">
+          <div class="head">
+
+          </div>
+          <div class="core">
+            <img [src]="article.urlToImage" alt="">
+            <p>{{article.content}}</p>
+          </div>
+        </div>
+
+      </div>
+    </div><!--End Container-->
+  </div>
+</section>
+<!--========== End single-news ==========-->
+
+<!--========== Start comments ==========-->
+<section class="comments">
+  <div class="container"><!--Start Container-->
+    
+    <div class="head">
+      <h5>2 Comments</h5>
+      <span>
+          <i class="fa fa-share-square fa-fw" aria-hidden="true"></i>
+        Share
+      </span>
+    </div>
+
+    <div class="row">
+      <div class="col">
+
+        <div class="media">
+          <img class="mr-3 rounded" src="./assets/imgs/img_avatar.png" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">
+              <span>Alison Burgers</span>
+              <span>FEB 12, 2014</span>
+            </h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+            <span>
+              <i class="fa fa-reply fa-fw" aria-hidden="true"></i>
+              Reply
+            </span>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 rounded" src="./assets/imgs/img_avatar.png" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">
+              <span>Alison Burgers</span>
+              <span>FEB 12, 2014</span>
+            </h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+            <span>
+              <i class="fa fa-reply fa-fw" aria-hidden="true"></i>
+              Reply
+            </span>
+          </div>
+        </div>
+
+        <div class="media">
+          <img class="mr-3 rounded" src="./assets/imgs/img_avatar.png" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">
+              <span>Alison Burgers</span>
+              <span>FEB 12, 2014</span>
+            </h5>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+            <span>
+              <i class="fa fa-reply fa-fw" aria-hidden="true"></i>
+              Reply
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div><!--End Container-->
+</section>
+<!--========== End comments ==========-->

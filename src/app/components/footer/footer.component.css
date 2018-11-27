@@ -1,0 +1,19 @@
+@import "~font-awesome/css/font-awesome.css";
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*========== Start footer ==========*/
+footer {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 20px;
+    color: rgba(0, 0, 0, .5);
+}
+
+@media(max-width: 775px) {
+    footer p {
+        font-size: 12px
+    }
+}
+/*========== End footer ==========*/
