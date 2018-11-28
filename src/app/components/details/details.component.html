@@ -51,6 +51,11 @@
 
           </div>
           <div class="core">
+            <h5>{{article.title}}</h5>
+            <p>
+              <i class="fa fa-building fa-fw"></i>
+              <span>{{article.publishedAt.slice(0,9)}}</span>
+            </p>
             <img [src]="article.urlToImage" alt="">
             <p>{{article.content}}</p>
           </div>
